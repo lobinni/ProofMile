@@ -1,0 +1,26 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "...": "One entry per deploy in deployments[] (scripts/deploy_studionet.py appends automatically); one entry per scripted protocol run in runs[].",
+  "deployments": [
+    {
+      "network": "studionet",
+      "chain_id": 61999,
+      "contract": "proof_mile_escrow.py",
+      "address": "0xd429Bcfc77aBBE478c00f86cb49F85dDd32427A0",
+      "status": "live",
+      "deployed_at_utc": "2026-09-08T00:00:00Z",
+      "explorer": "https://explorer-studio.genlayer.com/address/0xd429Bcfc77aBBE478c00f86cb49F85dDd32427A0",
+      "tx_hash": null,
+      "post_deploy_checks": {
+        "params_legible": true,
+        "stats_legible": true,
+        "schema_methods": 18,
+        "schema_verified_via": "gen_getContractSchema",
+        "code_hash_sha256_prefix": "fae85a4a0e71577c",
+        "code_matches_repo": true
+      }
+    }
+  ],
+  "runs": []
+}
